@@ -11,7 +11,7 @@ export const destinationsData = [
           " A UNESCO World Heritage site, Lamu Old Town is one of the oldest and best-preserved Swahili settlements in East Africa. It is known for its narrow streets, traditional Swahili architecture, and vibrant cultural festivals",
         highlights: [
           { title: "Lamu Museum" },
-          { tile: "Swahili House Museum" },
+          { title: "Swahili House Museum" },
           { title: "Riyadha Mosque" },
           { title: "Maulidi Festival" },
         ],
@@ -23,7 +23,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Kisumu Museum" },
-          { tile: "Kit Mikayi (a rock formation with cultural significance)" },
+          { title: "Kit Mikayi (a rock formation with cultural significance)" },
           { title: "Dunga Beach and Wetlands" },
         ],
       },
@@ -34,7 +34,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Hominid Vault (fossils of early human ancestors)" },
-          { tile: "Extensive ethnographic collections" },
+          { title: "Extensive ethnographic collections" },
           { title: "Snake Park" },
         ],
       },
@@ -46,7 +46,8 @@ export const destinationsData = [
         highlights: [
           { title: "Fort Jesus Museum" },
           {
-            tile: "Old Town Mombasa with its Arab, Asian, and European influence",
+            title:
+              "Old Town Mombasa with its Arab, Asian, and European influence",
           },
           { title: "Swahili Cultural Centre" },
         ],
@@ -59,7 +60,8 @@ export const destinationsData = [
         highlights: [
           { title: "Maasai Mara National Reserve" },
           {
-            tile: "Bomas of Kenya (cultural performances and traditional homesteads)",
+            title:
+              "Bomas of Kenya (cultural performances and traditional homesteads)",
           },
           { title: "Kariandusi Museum (archaeological site)" },
         ],
@@ -72,7 +74,8 @@ export const destinationsData = [
         highlights: [
           { title: "Guided forest walks" },
           {
-            tile: "Traditional Luhya cultural practices and medicinal plant use",
+            title:
+              "Traditional Luhya cultural practices and medicinal plant use",
           },
         ],
       },
@@ -82,7 +85,7 @@ export const destinationsData = [
           'Known as the "Jade Sea," this remote area is rich in cultural heritage, being home to the Turkana, El Molo, and Rendille communities.',
         highlights: [
           { title: "Turkana Cultural Festival" },
-          { tile: "Central Island National Park" },
+          { title: "Central Island National Park" },
           { title: "The El Molo Villages" },
         ],
       },
@@ -93,7 +96,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Ngare Ndare Forest" },
-          { tile: "Cultural tours of local Kikuyu communities" },
+          { title: "Cultural tours of local Kikuyu communities" },
           {
             title:
               "Mukurwe wa Nyagathanga, the Kikuyu cultural and spiritual site",
@@ -107,7 +110,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Tea plantation tours" },
-          { tile: "Kericho Tea Hotel" },
+          { title: "Kericho Tea Hotel" },
           { title: "Kipsigis cultural visits" },
         ],
       },
@@ -126,7 +129,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Lamu Museum" },
-          { tile: "Swahili House Museum" },
+          { title: "Swahili House Museum" },
           { title: " Riyadha Mosque" },
           { title: "Maulidi Festival" },
         ],
@@ -138,7 +141,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Kisumu Museum" },
-          { tile: "Kit Mikayi (a rock formation with cultural significance)" },
+          { title: "Kit Mikayi (a rock formation with cultural significance)" },
           { title: "Dunga Beach and Wetlands" },
         ],
       },
@@ -149,7 +152,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Hominid Vault (fossils of early human ancestors)" },
-          { tile: "Extensive ethnographic collections" },
+          { title: "Extensive ethnographic collections" },
           { title: "Snake Park" },
         ],
       },
@@ -161,7 +164,8 @@ export const destinationsData = [
         highlights: [
           { title: "Fort Jesus Museum" },
           {
-            tile: "Old Town Mombasa with its Arab, Asian, and European influence",
+            title:
+              "Old Town Mombasa with its Arab, Asian, and European influence",
           },
           { title: "Swahili Cultural Centre" },
         ],
@@ -174,7 +178,8 @@ export const destinationsData = [
         highlights: [
           { title: "Maasai Mara National Reserve" },
           {
-            tile: "Bomas of Kenya (cultural performances and traditional homesteads)",
+            title:
+              "Bomas of Kenya (cultural performances and traditional homesteads)",
           },
           { title: "Kariandusi Museum (archaeological site)" },
         ],
@@ -187,7 +192,8 @@ export const destinationsData = [
         highlights: [
           { title: "Guided forest walks" },
           {
-            tile: "Traditional Luhya cultural practices and medicinal plant use",
+            title:
+              "Traditional Luhya cultural practices and medicinal plant use",
           },
         ],
       },
@@ -197,7 +203,7 @@ export const destinationsData = [
           'Known as the "Jade Sea," this remote area is rich in cultural heritage, being home to the Turkana, El Molo, and Rendille communities.',
         highlights: [
           { title: "Turkana Cultural Festival" },
-          { tile: "Central Island National Park" },
+          { title: "Central Island National Park" },
           { title: "The El Molo Villages" },
         ],
       },
@@ -208,7 +214,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Ngare Ndare Forest" },
-          { tile: "Cultural tours of local Kikuyu communities" },
+          { title: "Cultural tours of local Kikuyu communities" },
           {
             title:
               "Mukurwe wa Nyagathanga, the Kikuyu cultural and spiritual site",
@@ -222,7 +228,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Tea plantation tours" },
-          { tile: "Kericho Tea Hotel" },
+          { title: "Kericho Tea Hotel" },
           { title: "Kipsigis cultural visits" },
         ],
       },
@@ -241,7 +247,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Lamu Museum" },
-          { tile: "Swahili House Museum" },
+          { title: "Swahili House Museum" },
           { title: " Riyadha Mosque" },
           { title: "Maulidi Festival" },
         ],
@@ -253,7 +259,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Kisumu Museum" },
-          { tile: "Kit Mikayi (a rock formation with cultural significance)" },
+          { title: "Kit Mikayi (a rock formation with cultural significance)" },
           { title: "Dunga Beach and Wetlands" },
         ],
       },
@@ -264,7 +270,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Hominid Vault (fossils of early human ancestors)" },
-          { tile: "Extensive ethnographic collections" },
+          { title: "Extensive ethnographic collections" },
           { title: "Snake Park" },
         ],
       },
@@ -276,7 +282,8 @@ export const destinationsData = [
         highlights: [
           { title: "Fort Jesus Museum" },
           {
-            tile: "Old Town Mombasa with its Arab, Asian, and European influence",
+            title:
+              "Old Town Mombasa with its Arab, Asian, and European influence",
           },
           { title: "Swahili Cultural Centre" },
         ],
@@ -289,7 +296,8 @@ export const destinationsData = [
         highlights: [
           { title: "Maasai Mara National Reserve" },
           {
-            tile: "Bomas of Kenya (cultural performances and traditional homesteads)",
+            title:
+              "Bomas of Kenya (cultural performances and traditional homesteads)",
           },
           { title: "Kariandusi Museum (archaeological site)" },
         ],
@@ -302,7 +310,8 @@ export const destinationsData = [
         highlights: [
           { title: "Guided forest walks" },
           {
-            tile: "Traditional Luhya cultural practices and medicinal plant use",
+            title:
+              "Traditional Luhya cultural practices and medicinal plant use",
           },
         ],
       },
@@ -312,7 +321,7 @@ export const destinationsData = [
           'Known as the "Jade Sea," this remote area is rich in cultural heritage, being home to the Turkana, El Molo, and Rendille communities.',
         highlights: [
           { title: "Turkana Cultural Festival" },
-          { tile: "Central Island National Park" },
+          { title: "Central Island National Park" },
           { title: "The El Molo Villages" },
         ],
       },
@@ -323,7 +332,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Ngare Ndare Forest" },
-          { tile: "Cultural tours of local Kikuyu communities" },
+          { title: "Cultural tours of local Kikuyu communities" },
           {
             title:
               "Mukurwe wa Nyagathanga, the Kikuyu cultural and spiritual site",
@@ -337,7 +346,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Tea plantation tours" },
-          { tile: "Kericho Tea Hotel" },
+          { title: "Kericho Tea Hotel" },
           { title: "Kipsigis cultural visits" },
         ],
       },
@@ -356,7 +365,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Lamu Museum" },
-          { tile: "Swahili House Museum" },
+          { title: "Swahili House Museum" },
           { title: " Riyadha Mosque" },
           { title: "Maulidi Festival" },
         ],
@@ -368,7 +377,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Kisumu Museum" },
-          { tile: "Kit Mikayi (a rock formation with cultural significance)" },
+          { title: "Kit Mikayi (a rock formation with cultural significance)" },
           { title: "Dunga Beach and Wetlands" },
         ],
       },
@@ -379,7 +388,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Hominid Vault (fossils of early human ancestors)" },
-          { tile: "Extensive ethnographic collections" },
+          { title: "Extensive ethnographic collections" },
           { title: "Snake Park" },
         ],
       },
@@ -391,7 +400,8 @@ export const destinationsData = [
         highlights: [
           { title: "Fort Jesus Museum" },
           {
-            tile: "Old Town Mombasa with its Arab, Asian, and European influence",
+            title:
+              "Old Town Mombasa with its Arab, Asian, and European influence",
           },
           { title: "Swahili Cultural Centre" },
         ],
@@ -404,7 +414,8 @@ export const destinationsData = [
         highlights: [
           { title: "Maasai Mara National Reserve" },
           {
-            tile: "Bomas of Kenya (cultural performances and traditional homesteads)",
+            title:
+              "Bomas of Kenya (cultural performances and traditional homesteads)",
           },
           { title: "Kariandusi Museum (archaeological site)" },
         ],
@@ -417,7 +428,8 @@ export const destinationsData = [
         highlights: [
           { title: "Guided forest walks" },
           {
-            tile: "Traditional Luhya cultural practices and medicinal plant use",
+            title:
+              "Traditional Luhya cultural practices and medicinal plant use",
           },
         ],
       },
@@ -427,7 +439,7 @@ export const destinationsData = [
           'Known as the "Jade Sea," this remote area is rich in cultural heritage, being home to the Turkana, El Molo, and Rendille communities.',
         highlights: [
           { title: "Turkana Cultural Festival" },
-          { tile: "Central Island National Park" },
+          { title: "Central Island National Park" },
           { title: "The El Molo Villages" },
         ],
       },
@@ -438,7 +450,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Ngare Ndare Forest" },
-          { tile: "Cultural tours of local Kikuyu communities" },
+          { title: "Cultural tours of local Kikuyu communities" },
           {
             title:
               "Mukurwe wa Nyagathanga, the Kikuyu cultural and spiritual site",
@@ -452,7 +464,7 @@ export const destinationsData = [
 
         highlights: [
           { title: "Tea plantation tours" },
-          { tile: "Kericho Tea Hotel" },
+          { title: "Kericho Tea Hotel" },
           { title: "Kipsigis cultural visits" },
         ],
       },

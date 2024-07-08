@@ -8,6 +8,7 @@
   width: 100vw;
   height: 80vh;
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: flex-end;
   background-size: cover;
@@ -40,14 +41,25 @@
   text-transform: uppercase;
   font-size: 14px;
 }
-.destination-details-hero .highlights {
+.destination-details-hero .right {
   width: 50vw;
+  overflow: hidden;
+}
+.destination-details-hero .highlights {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scrollbar-width: none; /* Firefox: hide scrollbar */
+  -ms-overflow-style: none; /* IE and Edge: hide scrollbar */
+  -webkit-overflow-scrolling: touch;
+  justify-content: space-around;
   margin-bottom: 2vh;
   position: relative;
   z-index: 12;
 }
+.destination-details-hero .highlights::-webkit-scrollbar {
+  display: none;
+}
+
 .destination-details-hero .highlights .highlight {
   width: 200px;
   min-width: 200px;
@@ -56,7 +68,74 @@
   flex-direction: column;
   justify-content: flex-end;
   height: 40vh;
-  border: solid 1px white;
+  background-color: black;
   border-radius: 20px;
   margin-right: 2vw;
+}
+.destination-details-hero .right .direction-indicator {
+  display: flex;
+  align-items: center;
+  color: white;
+  /* position: relative;
+  z-index: 12; */
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.destination-details-hero .right .direction-indicator .indicator {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  margin-right: 2vw;
+}
+.destination-details-hero .right .direction-indicator hr {
+  width: 60%;
+  color: white !important;
+}
+
+.destination-action-btns {
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 20px;
+  /* background: radial-gradient(white, gray); */
+  /* color: #000; */
+  box-shadow: 0px 0px 10px gray;
+
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+}
+.destination-action-btns .action-btn {
+  display: flex;
+  align-items: center;
+}
+.destination-action-btns .action-btn .btn-icon {
+  font-size: 36px;
+  border: solid 1px gray;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.destination-action-btns .action-btn div {
+  margin-left: 10px;
+}
+
+.destination-action-btns .action-btn div p {
+  margin: 0;
+}
+.destination-action-btns .action-btn.button {
+  /* background-color: yellow; */
+  padding: 10px;
+  border-radius: 50px;
+  /* color: #000; */
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 10px yellow;
 }
