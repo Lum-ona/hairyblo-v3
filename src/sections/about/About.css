@@ -1,0 +1,80 @@
+#about {
+  width: 100%;
+  height: 100vh;
+  background: black url("../../assets/img/COLLAGE\ \(ABOUT\ SECTION\).png")
+    bottom;
+  background-size: contain;
+  background-position: right;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+  position: relative;
+}
+#about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000b3;
+}
+
+#about .about-left {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  padding-left: 6vw;
+  background: linear-gradient(
+    to right,
+    black,
+    rgba(0, 0, 0, 0.842),
+    rgba(0, 0, 0, 0)
+  );
+}
+#about .section-header {
+  position: relative;
+  z-index: 12;
+}
+#about .about-descr {
+  position: relative;
+  z-index: 12;
+}
+#about .about-descr .p-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  text-align: left;
+  color: white;
+  margin-bottom: 5%;
+}
+
+#about .about-descr .separator {
+  max-width: 100%;
+  margin-bottom: 0;
+  text-align: left;
+  color: #fafafa;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  #about .about-descr .p-heading {
+    font-size: 38px;
+  }
+}
+@media (max-width: 574px) {
+  #about .about-descr .p-heading {
+    font-size: 28px;
+  }
+  #about .about-descr .separator {
+    font-size: 14px;
+  }
+}
+@media (max-width: 474px) {
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    font-size: 12px;
+  }
+}
