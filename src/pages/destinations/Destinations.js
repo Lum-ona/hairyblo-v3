@@ -2,9 +2,14 @@ import { useLocation } from "react-router-dom";
 import DestinationCard from "./components/destinationCard/DestinationCard";
 import "./Destinations.css";
 import { destinationsData } from "./destinationData";
+import { useEffect } from "react";
 
 export default function Destinations() {
   const { state } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const data = destinationsData.find(
     (destination) => destination.id === state.id
   );
