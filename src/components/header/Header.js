@@ -56,17 +56,17 @@ export default function Header() {
                 Destinations
               </Link>
               <div className="dropdown-content">
-                <Link to="/destinations/culture-and-heritage" state={{ id: 0 }}>
+                <Link to="/activities/culture-and-heritage" state={{ id: 0 }}>
                   Culture and Heritage
                 </Link>
-                <Link to="/destinations/nature-and-adventure" state={{ id: 1 }}>
+                <Link to="/activities/nature-and-adventure" state={{ id: 1 }}>
                   Nature and Adventure
                 </Link>
-                <Link to="/destinations/urban-exploration" state={{ id: 2 }}>
+                <Link to="/activities/urban-exploration" state={{ id: 2 }}>
                   Urban Exploration
                 </Link>
                 <Link
-                  to="/destinations/relaxation-and-wellness"
+                  to="/activities/relaxation-and-wellness"
                   state={{ id: 3 }}
                 >
                   Relaxation and Wellness

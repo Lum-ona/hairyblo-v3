@@ -1,0 +1,398 @@
+[
+  {
+    "id": 0,
+    "title": "Culture and Heritage in Kenya",
+    "mainDescription": "Kenya is a country rich in culture and heritage, offering numerous destinations that showcase its diverse traditions, history, and cultural landmarks. Here are some top activities in Kenya that highlight culture and heritage",
+    "activities": [
+      {
+        "title": "Hiking",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FHIKING%20TRAILER.gif?alt=media&token=ffb1925f-890f-4ed1-911c-597cde098bc8",
+        "banner": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FBANNER.jpeg?alt=media&token=600446e6-f3cb-4d6e-b629-7505e4d5e3a3",
+
+        "description": "Discover hiking like never before! Explore trails rich in culture and heritage, from ancient ruins to historic landmarks. Trek through stunning landscapes while uncovering the stories of the past. Whether you're hiking the lush forests of the Aberdares or the scenic trails of Mount Longonot, every step promises an adventure. Lace up their boots and dive into history. Let's make every hike an epic journey!",
+        "highlights": [
+          {
+            "title": "Longonot",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FLONGONOT%20THUMBNAIL.png?alt=media&token=2437881a-41fb-4ca1-ac53-e6cc9ed57000"
+          },
+          {
+            "title": "Sleeping Warrior",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FSLEEPING%20WARRIOR%20THUMBNAIL%202.png?alt=media&token=882035a9-a4e3-41ff-8eaf-61a6ef12aeed"
+          },
+          {
+            "title": "Mt Kenya",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FMT%20KENYA%20(2).jpg?alt=media&token=84c11dd8-4dc2-4ff0-9e94-764296240a28"
+          },
+          {
+            "title": "My Kilimanjaro",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FMT%20KILIMANJARO.jpg?alt=media&token=376364ae-73f3-4f17-a14b-4f00f5280916"
+          }
+        ],
+        "tips": [
+          {
+            "Stay Hydrated": "Carry enough water to stay hydrated, especially under the hot Kenyan sun. Dehydration can sneak up on you, so sip regularly."
+          },
+          {
+            "Wear Proper Footwear": "Invest in good hiking boots. They provide the support and protection your feet need on rugged trails."
+          }
+        ],
+        "hacks": [
+          {
+            "Use Offline Maps": "Download offline maps of your hiking trails. This ensures you won't get lost even if you lose cell service."
+          },
+          {
+            "Pack Light Snacks": "Bring energy-boosting snacks like nuts and dried fruits. They are lightweight, easy to carry, and provide quick energy."
+          }
+        ]
+      },
+      {
+        "title": "Museums and Galleries",
+        "description": "Immerse yourself in Kenya's rich culture and heritage by exploring its museums and galleries. From ancient artifacts to contemporary art, these cultural hubs offer a deep dive into the country's history and artistic expression. Perfect for  explorers eager to experience culture in a fun and engaging way. Let's make every visit an inspiring adventure!",
+
+        "highlights": [
+          {
+            "title": "Nairobi contemporary art gallery",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FNCAI.jpg?alt=media&token=9dd82705-0b56-4a8c-9cc7-4ba98b8b39ea"
+          },
+          {
+            "title": "Ardhi gallery",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FARDHI%20GALLERY.jpg?alt=media&token=41809d7d-b13a-469e-9124-f1af66e50ae2"
+          },
+          {
+            "title": "Fort Jesus",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FFORT%20JESUS%20Museum.jpg?alt=media&token=1967f69b-ef32-41fe-9414-fc8d0a22c995"
+          }
+        ],
+        "tips": [
+          {
+            "Check Exhibit Schedules": "Some museums have rotating exhibits. Check their schedules online to make sure you catch the most interesting displays."
+          },
+          {
+            "Take Guided Tours": "Opt for guided tours if available. They provide deeper insights and fascinating stories that you might miss on your own."
+          }
+        ],
+        "hacks": [
+          {
+            "Student Discounts": "Always ask for student discounts. Many museums offer reduced entry fees for students, so bring your ID."
+          },
+          {
+            "Visit During Off-Peak Hours": "Visit museums during weekdays or early in the day to avoid crowds and have a more intimate experience with the exhibits."
+          }
+        ]
+      },
+      {
+        "title": "Cultural Festival",
+        "description": "Dive into Kenya's vibrant heritage by attending its lively cultural festivals. These events showcase traditional music, dance, food, and art, offering a unique glimpse into the country's rich traditions. Perfect for Kenyan explorers looking to experience culture in a fun and engaging way. Let's make every festival an unforgettable adventure!",
+
+        "highlights": [
+          {
+            "title": "Lamu Festival",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fcultural%20festival%2FLAMU%20FESTIVAL.jpg?alt=media&token=c100c498-b57f-4796-8e04-1c0fcb49bc6f"
+          },
+          {
+            "title": "Summertides",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fcultural%20festival%2FSUMMERTIDES.jpg?alt=media&token=628e3451-5fc3-4b3f-baee-f0b131adcb04"
+          },
+          {
+            "title": "Turkana Festival",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fcultural%20festival%2FTURKANA%20FESTIVAL.jpg?alt=media&token=a8a678e1-ec85-4b98-9712-fca962a95d4d"
+          }
+        ],
+        "tips": [
+          {
+            "Arrive Early": "Get to the festival early to secure a good spot and catch all the performances and activities."
+          },
+          {
+            "Dress Comfortably": "Wear comfortable clothes and shoes, as festivals often involve a lot of walking and standing."
+          }
+        ],
+        "hacks": [
+          {
+            "Carry Cash": "Many vendors might not accept cards, so bring enough cash for food, souvenirs, and other purchases."
+          },
+          {
+            "Stay Hydrated": "Festivals can be crowded and hot. Carry a reusable water bottle to stay hydrated throughout the day."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Nature and Adventure in Kenya",
+    "mainDescription": "Get ready to explore the great outdoors with our Nature and Adventure category. This section is all about experiencing Kenya's natural beauty through thrilling adrenaline activities and serene nature experiences. Perfect for those who crave excitement and tranquility alike, these adventures promise to leave you with unforgettable memories.",
+    "activities": [
+      {
+        "title": "Adrenalin Activities",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2FADRENALIN%20ACTIVITIES%20TRAILER.gif?alt=media&token=eaf841a8-076e-4e24-aa18-d4eb098d6aed",
+        "banner": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2FBACKGROUND%20BANNER.jpg?alt=media&token=05a5bc53-593a-4c75-873d-d5bdfcede0df",
+        "description": "Pump up your excitement with high-energy activities. These adventures are designed for thrill-seekers looking to test their limits and feel the rush.",
+        "highlights": [
+          {
+            "title": "Motorcross",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2FadrenalinAdventures%2F2.MOTORCROSS.jpg?alt=media&token=27fe84ae-7d56-45e5-8843-2f23dbe3093b"
+          },
+          {
+            "title": "Paragliding",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2FadrenalinAdventures%2F1.PARAGLIDING%20THUMBNAIL.jpg?alt=media&token=ccb5173e-5773-4893-bd2a-3e7862d72fca"
+          },
+          {
+            "title": "Skateboarding",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2FadrenalinAdventures%2F3.SKATEBOARDING.png?alt=media&token=30e3240f-8790-44e4-b3e6-77a2b35060d1"
+          }
+        ],
+        "tips": [
+          {
+            "Safety First": "Always follow safety instructions and use the provided gear to ensure a safe experience."
+          },
+          {
+            "Stay Fit": "Engage in regular exercise to stay in good shape, as some activities require physical strength and stamina."
+          }
+        ],
+        "hacks": [
+          {
+            "Book in Advance": "Many vendors might not accept cards, so bring enough cash for food, souvenirs, and other purchases."
+          },
+          {
+            "GoPro Ready": "Use a GoPro or similar device to capture your thrilling moments hands-free."
+          }
+        ]
+      },
+      {
+        "title": "Nature activities",
+        "description": "Immerse yourself in the tranquility of nature with activities like. These experiences allow you to connect with nature and enjoy the serene beauty of Kenya's landscapes.",
+
+        "highlights": [
+          {
+            "title": "Ngare ndare canopy walk",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2Fnature%2FCanopy%20walk%20Ngare%20Ndare%20Forest%20Park.jpg?alt=media&token=3ffb1627-b739-4c22-97f2-9ba7cbe2f41f"
+          },
+          {
+            "title": "Tree planting",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2Fnature%2FTREE%20PLANTING.jpg?alt=media&token=e03e3818-3a04-4ece-87c7-365913d8aae9"
+          },
+          {
+            "title": "Botanical gardens",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2Fnature%2FBOTANICAL%20GARDENS.jpg?alt=media&token=cd717146-8308-4dbf-b782-cfb02880aef5"
+          }
+        ],
+        "tips": [
+          {
+            "Pack Essentials": "Bring sunscreen, insect repellent, and comfortable clothing to make your nature adventure more enjoyable."
+          },
+          {
+            "Stay Informed": "Learn about the flora and fauna you might encounter to enhance your appreciation of the natural environment."
+          }
+        ],
+        "hacks": [
+          {
+            "Early Start": "Begin your nature activities early in the morning when wildlife is most active and the weather is cooler."
+          },
+          {
+            "Binoculars and Guidebooks": "Carry binoculars for bird watching and guidebooks to identify plants and animals along the way."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Urban Exploration",
+    "mainDescription": "Dive into the vibrant urban life of Kenya with our Urban Exploration category. Explore bustling city activities, indulge in the best hotels and restaurants, enjoy various events, and experience the dynamic nightlife. Perfect for Kenyan Gen Z explorers ready to uncover the excitement of city living.",
+    "activities": [
+      {
+        "title": "Hotels And Restaurants",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2FHOTELS%20AND%20RESTAURANTSTRAILER.gif?alt=media&token=6bff3268-5acf-4e0b-a6a7-fa1750767bbe",
+        "banner": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2FBACKGROUND%20BANNER.png?alt=media&token=366dbc0c-9b60-46ef-99bc-923d2d4ca7be",
+        "description": "Discover the best places to stay and dine in the city, from luxury hotels to trendy eateries. These spots provide comfort, style, and delicious cuisine for every taste.",
+
+        "highlights": [
+          {
+            "title": "IBIS-STYLES",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2FhotelsAndRestaurants%2FIBIS-STYLES.jpg?alt=media&token=e2dd6549-d171-4023-81c6-6b2822dc0587"
+          },
+          {
+            "title": "Kempinski",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2FhotelsAndRestaurants%2FKEMPINSKI.png?alt=media&token=8e0797ff-f9ac-4b49-ade2-d8246f754150"
+          },
+          {
+            "title": "Alloy bar and restaurant",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2FhotelsAndRestaurants%2FALLOY.png?alt=media&token=c7595cca-d848-4c0a-9a89-d42ab57db8e5"
+          }
+        ],
+        "tips": [
+          {
+            "Read Reviews": "Check online reviews to find the best hotels and restaurants that suit your preferences and budget."
+          },
+          {
+            "Make Reservations": "Book your accommodations and restaurant tables in advance to avoid disappointment."
+          }
+        ],
+        "hacks": [
+          {
+            "Local Cuisine": "Try local dishes at restaurants to get a true taste of the city's culinary scene."
+          },
+          {
+            "Hotel Deals": "Look for hotel packages that include meals, tours, or other perks to enhance your stay."
+          }
+        ]
+      },
+      {
+        "title": "Nightlife",
+        "description": "Experience the dynamic nightlife with activities like clubbing, live music, and rooftop bars. The city's nightlife offers endless fun and excitement after dark.",
+        "banner": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2FBACKGROUND%20BANNER%20NIGHT%20LIFE.jpeg?alt=media&token=80c08381-f50f-4af4-b536-dc2dd09b2f60",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2FNIGHTLUFE%20TRAILER.gif?alt=media&token=dd02451c-9979-4544-a042-1e7c2e48d5b3",
+        "highlights": [
+          {
+            "title": "ALCHEMIST",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2Fnightlife%2FALCHEMIST.jpg?alt=media&token=2e0066da-b9ca-4343-a3ee-6dd6998dd841"
+          },
+          {
+            "title": "THE MIST",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2Fnightlife%2FTHE%20MIST.jpg?alt=media&token=461c9a51-1dad-4b8c-9324-c3f873498cfc"
+          },
+          {
+            "title": "UNSEEN NAIROBI",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/urbanExploration%2Fnightlife%2FUNSEEN%20NAIROBI.jpg?alt=media&token=47ae7b0f-aac4-4055-8d1c-d4dc685339cc"
+          }
+        ],
+        "tips": [
+          {
+            "Stay Safe": "Stick to well-known venues, travel in groups, and keep an eye on your drinks."
+          },
+          {
+            "Know the Rules": "Be aware of the venue’s dress code and entry requirements to ensure a smooth night out."
+          }
+        ],
+        "hacks": [
+          {
+            "Happy Hours": "Take advantage of happy hour deals to enjoy drinks and food at a lower cost."
+          },
+          {
+            "Local Hotspots": "Ask locals for recommendations on the best nightlife spots to get an authentic experience."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Relaxation and Wellness",
+    "mainDescription": "Indulge in relaxation and wellness activities to unwind and rejuvenate in Kenya. This category offers a sanctuary for peace-seekers looking to recharge amidst tranquil settings and soothing treatments.",
+
+    "activities": [
+      {
+        "title": "Health Exercises",
+        "banner": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FRELAXATION%20BANNER.jpg?alt=media&token=caa10b4e-1bbf-4a81-85f6-caf2914a6130",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FHEALTHY%20TRAILER.gif?alt=media&token=544a2354-8e00-466d-9559-389d8b3f5b2e",
+        "description": "Boost your well-being with healthy exercises like yoga, pilates, and tai chi. These activities promote flexibility, strength, and mental clarity, helping you maintain a balanced lifestyle.",
+
+        "highlights": [
+          {
+            "title": "Dance",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FhealthyExercise%2FDANCE%20CLASSES.jpg?alt=media&token=73da05e8-8557-45a1-b7c1-b4ff7e391a41"
+          },
+          {
+            "title": "Meditation",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FhealthyExercise%2FMEDITATION.jpg?alt=media&token=7f9c6582-c976-4a14-bf36-39deee1d09ab"
+          },
+          {
+            "title": "WINGTSUN KUNG FU",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FhealthyExercise%2FMEDITATION.jpg?alt=media&token=7f9c6582-c976-4a14-bf36-39deee1d09ab"
+          }
+        ],
+        "tips": [
+          {
+            "Consistent Practice": "Schedule regular sessions to get the most benefits from these exercises."
+          },
+          {
+            "Proper Gear": "Wear comfortable clothing and use the appropriate equipment, like yoga mats and resistance bands."
+          }
+        ],
+        "hacks": [
+          {
+            "Online Classes": "Use online resources and apps to access guided exercise sessions anytime, anywhere."
+          },
+          {
+            "Local Hotspots": "Exercise with a friend to stay motivated and make the experience more enjoyable."
+          }
+        ]
+      },
+      {
+        "title": "Nature Walks",
+        "description": "Immerse yourself in the tranquility of nature with leisurely walks through parks, forests, and nature reserves. These walks help reduce stress and connect you with the natural world.",
+        "banner": "../../assets/img/RELAXATION_AND_WELLNESS/RELAXATION_BANNER.jpg",
+        "thumbnail": "../../assets/img/RELAXATION_AND_WELLNESS/NATURE_WALKS_TRAILER.gif",
+        "highlights": [
+          {
+            "title": "Karura",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FNatureWalks%2FKARURA.jpg?alt=media&token=123f2570-1d13-454a-a2cd-70cbebb72742"
+          },
+          {
+            "title": "Chyulu caves",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FNatureWalks%2FCHYULU%20CAVE.jpg?alt=media&token=3671b092-4957-469f-be59-0263de663a52"
+          },
+          {
+            "title": "Oloolua nature trail",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FNatureWalks%2FKARURA.jpg?alt=media&token=123f2570-1d13-454a-a2cd-70cbebb72742"
+          }
+        ],
+        "tips": [
+          {
+            "Comfortable Footwear": "Wear sturdy, comfortable shoes to make your walk more enjoyable and prevent injuries."
+          },
+          {
+            "Stay Hydrated": "Carry water to stay hydrated, especially during longer walks."
+          }
+        ],
+        "hacks": [
+          {
+            "Early Start": "Begin your walks early in the morning when the weather is cooler and wildlife is more active."
+          },
+          {
+            "Portable Snacks": "Bring healthy snacks like nuts and fruits to keep your energy levels up during longer walks."
+          }
+        ]
+      },
+      {
+        "title": "Relaxation Activities",
+        "description": "Treat yourself to relaxation activities such as spa visits, boat rides, and aromatherapy. These experiences help reduce stress and promote overall wellness.",
+
+        "highlights": [
+          {
+            "title": "Ayiras paint and sip",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FrelaxationActivities%2FAYIRAS%20NPAINT%20AND%20SIP%20EVENTS.jpg?alt=media&token=0260cf7a-d58a-49b6-8dfc-c22ee72f1426"
+          },
+          {
+            "title": "Spa",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FrelaxationActivities%2FSPA.jpg?alt=media&token=84ef0508-ff5b-4b53-95fb-b3bcea13bea7"
+          },
+          {
+            "title": "L.victoria boat rides",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FrelaxationActivities%2FL.VICTORIA%20BOAT%20RIDES.jpg?alt=media&token=62c514aa-03d3-4cb2-aa27-220b73961b98"
+          },
+          {
+            "title": "Lamu boat rides",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FrelaxationActivities%2FLAMU%20BOAT%20RIDES.jpg?alt=media&token=20512d8f-528d-42d8-b322-50022e2294d4"
+          }
+        ],
+        "tips": [
+          {
+            "Research Options": "Choose reputable spas and wellness centers known for their high-quality services."
+          },
+          {
+            "Regular Breaks": "Incorporate short relaxation breaks into your daily routine to maintain a calm and balanced mind."
+          }
+        ],
+        "hacks": [
+          {
+            "DIY Spa Day": "Create your own spa experience at home with homemade face masks, essential oils, and calming music."
+          },
+          {
+            "Mindfulness Apps": "Use mindfulness and meditation apps to guide you through relaxation exercises and improve mental clarity."
+          }
+        ]
+      }
+    ]
+  }
+]

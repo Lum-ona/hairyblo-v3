@@ -10,14 +10,14 @@ export default function Categories() {
             <h2>Culture and Heritage</h2>
           </div>
           <Link
-            to={"/destinations/culture-and-heritage"}
+            to={"/activities/culture-and-heritage"}
             state={{ id: 0 }}
             className="inner-div"
           ></Link>
         </div>
         <div className="middle col-lg-3">
           <Link
-            to={"/destinations/nature-and-adventure"}
+            to={"/activities/nature-and-adventure"}
             state={{ id: 1 }}
             className="inner-div"
           ></Link>
@@ -29,7 +29,7 @@ export default function Categories() {
         <div className="right col-lg-5">
           <div className="right-top">
             <Link
-              to={"/destinations/urban-exploration"}
+              to={"/activities/urban-exploration"}
               state={{ id: 2 }}
               className="inner-div"
             ></Link>
@@ -42,7 +42,7 @@ export default function Categories() {
               <h2>Relaxation and Wellness</h2>
             </div>
             <Link
-              to={"/destinations/relaxation-and-wellness"}
+              to={"/activities/relaxation-and-wellness"}
               state={{ id: 3 }}
               className="inner-div"
             ></Link>

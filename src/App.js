@@ -4,8 +4,8 @@ import "./App.css";
 import Home from "./pages/home/Home";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Destinations from "./pages/destinations/Destinations";
-import DestinationDetails from "./pages/destinationDetails/DestinationDetails";
+import Activities from "./pages/activities/Activities";
+import Destination from "./pages/destination/Destination";
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
         <Header />
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route path="/destinations/:name" element={<Destinations />} />
+          <Route path="/activities/:name" element={<Activities />} />
           <Route
-            path="/destinations/:name/:destination"
-            element={<DestinationDetails />}
+            path="/activities/:name/:destination"
+            element={<Destination />}
           />
         </Routes>
         <Footer />
