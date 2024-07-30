@@ -13,11 +13,82 @@
         "highlights": [
           {
             "title": "Longonot",
-            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FLONGONOT%20THUMBNAIL.png?alt=media&token=2437881a-41fb-4ca1-ac53-e6cc9ed57000"
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FLONGONOT%20THUMBNAIL.png?alt=media&token=2437881a-41fb-4ca1-ac53-e6cc9ed57000",
+            "entryFee": {
+              "citizens": { "currency": "KES", "Adult": 300, "Child": 215 },
+              "non-citizens": { "currency": "USD", "Adult": 26, "Child": 17 }
+            },
+            "timings": { "opening": "6:00am", "closing": "6:00pm" },
+            "location": "Mount Longonot national park",
+            "whyVisit": [
+              {
+                "Epic Views": "Climb to the top for jaw-dropping panoramic views of the Great Rift Valley and the crater. Perfect for those Insta-worthy shots!"
+              },
+              {
+                "Adventure Awaits": "Get your adrenaline pumping with a challenging hike up an active stratovolcano. It's a workout and an adventure rolled into one!"
+              },
+              {
+                "Nature's Playground": "Encounter diverse wildlife, lush vegetation, and unique volcanic terrain. Nature lovers, this is your paradise."
+              },
+              {
+                "Escape the City": "Only a short drive from Nairobi, it's the ideal getaway from the hustle and bustle. Perfect for a day trip or weekend escape."
+              },
+              {
+                "Unforgettable Experiences": "Create lasting memories with friends or solo. Whether you're hiking, camping, or just soaking in the views, Mt. Longonot offers something for everyone."
+              }
+            ],
+            "tips": [
+              "Best Time to Visit: Early morning to beat the heat and crowds.",
+              "What to Pack:*Water, snacks, sturdy hiking boots, sunscreen, and a camera.",
+              "Fitness Level: Moderate. Be prepared for a steep but rewarding climb.",
+              "Travel Light:Keep your pack light and essentials-only for an easier hike.",
+              "Stay Hydrated: Bring plenty of water – at least 2-3 liters per person."
+            ],
+            "hacks": [
+              "Start Early:Arrive by 6 AM to catch the sunrise and enjoy cooler temperatures.",
+              "Guided Tours: Enhance your experience with a local guide who knows all the best spots.",
+              "Affordable Packages: Outdoorer offers a Ksh 4,000 day trip package, including a ride to/from Mt. Longonot and a guided hike"
+            ],
+            "direction": "Located just 60 km northwest of Nairobi, the park is easily accessible via the Maai Mahiu-Narok road. Plan your trip and enjoy a smooth journey."
           },
           {
             "title": "Sleeping Warrior",
-            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FSLEEPING%20WARRIOR%20THUMBNAIL%202.png?alt=media&token=882035a9-a4e3-41ff-8eaf-61a6ef12aeed"
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FSLEEPING%20WARRIOR%20THUMBNAIL%202.png?alt=media&token=882035a9-a4e3-41ff-8eaf-61a6ef12aeed",
+            "entryFee": {
+              "citizens": { "currency": "KES", "Adult": 1200, "Child": 600 }
+            },
+            "timings": { "opening": "6:00am", "closing": "6:00pm" },
+            "location": "SLEEPING WARRIOR NATIONAL PARK",
+            "whyVisit": [
+              {
+                "Breathtaking Views": "Marvel at the stunning landscapes of Lake Elementaita and the Great Rift Valley from the top of this unique rock formation. Get those perfect Insta shots!"
+              },
+              {
+                "Unique Experience": "Hike up the 'Sleeping Warrior,' a formation that looks like a warrior lying down. It's a one-of-a-kind adventure you won't find anywhere else."
+              },
+              {
+                "Wildlife Encounters": "Spot a variety of wildlife, including zebras, giraffes, and numerous bird species. Perfect for nature enthusiasts and photographers."
+              },
+              {
+                "Tranquil Escape": "Enjoy a peaceful and less crowded hike compared to more popular spots. Ideal for a serene getaway from the city's hustle."
+              },
+              {
+                "Memorable Adventure": "Whether you're hiking with friends or solo, the Sleeping Warrior offers an unforgettable experience and a sense of accomplishment."
+              }
+            ],
+            "tips": [
+              "Best Time to Visit: Early morning or late afternoon to avoid the midday heat.",
+              "What to Pack: Water, snacks, sturdy hiking boots, sunscreen, and a camera.",
+              "  Fitness Level: Moderate. Be ready for some steep and rocky sections.",
+              "Travel Light: Carry only essentials for a more enjoyable hike.",
+              "Stay Hydrated:Ensure you bring at least 2-3 liters of water per person."
+            ],
+            "hacks": [
+              "Start Early: Arrive by 6 AM to catch the sunrise and enjoy cooler temperatures.",
+              "Guided Tours: Enhance your experience with a local guide who can share the area's history and best viewpoints.",
+              "Affordable Packages: Outdoorer offers a Ksh 4,000 day trip package, including transportation and a guided hike."
+            ],
+            "direction": "Located near Lake Elementaita, the Sleeping Warrior is accessible from Nairobi via the Nakuru Highway. Plan your route for a smooth and scenic journey."
           },
           {
             "title": "Mt Kenya",
@@ -47,6 +118,7 @@
       },
       {
         "title": "Museums and Galleries",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FMUSEUMS%20TRAILER.gif?alt=media&token=b2c6eb9d-af84-4ea1-9a3c-101ac1348ef0",
         "description": "Immerse yourself in Kenya's rich culture and heritage by exploring its museums and galleries. From ancient artifacts to contemporary art, these cultural hubs offer a deep dive into the country's history and artistic expression. Perfect for  explorers eager to experience culture in a fun and engaging way. Let's make every visit an inspiring adventure!",
 
         "highlights": [
@@ -82,6 +154,7 @@
       },
       {
         "title": "Cultural Festival",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FFESTIVALS%20TRAILER.gif?alt=media&token=3605601d-d91c-470a-9b86-8a298cfabab6",
         "description": "Dive into Kenya's vibrant heritage by attending its lively cultural festivals. These events showcase traditional music, dance, food, and art, offering a unique glimpse into the country's rich traditions. Perfect for Kenyan explorers looking to experience culture in a fun and engaging way. Let's make every festival an unforgettable adventure!",
 
         "highlights": [
@@ -160,6 +233,7 @@
       },
       {
         "title": "Nature activities",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/natureAndHeritage%2FNATURE%20LOVER%20ACTIVITIES.gif?alt=media&token=787e3b4e-7cb3-4cad-8187-67ac13263b5b",
         "description": "Immerse yourself in the tranquility of nature with activities like. These experiences allow you to connect with nature and enjoy the serene beauty of Kenya's landscapes.",
 
         "highlights": [
@@ -321,8 +395,8 @@
       {
         "title": "Nature Walks",
         "description": "Immerse yourself in the tranquility of nature with leisurely walks through parks, forests, and nature reserves. These walks help reduce stress and connect you with the natural world.",
-        "banner": "../../assets/img/RELAXATION_AND_WELLNESS/RELAXATION_BANNER.jpg",
-        "thumbnail": "../../assets/img/RELAXATION_AND_WELLNESS/NATURE_WALKS_TRAILER.gif",
+        "banner": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FRELAXATION%20BANNER.jpg?alt=media&token=caa10b4e-1bbf-4a81-85f6-caf2914a6130",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FNATURE%20WALKS%20TRAILER.gif?alt=media&token=ed54133b-ca3e-4c96-931b-b7bffa3eb6d0",
         "highlights": [
           {
             "title": "Karura",
@@ -356,6 +430,7 @@
       },
       {
         "title": "Relaxation Activities",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/relaxationAndWellness%2FRELAXATION%20ACTIVITIES.gif?alt=media&token=eb42dfbe-091e-4ccb-a3b3-81f99c012059",
         "description": "Treat yourself to relaxation activities such as spa visits, boat rides, and aromatherapy. These experiences help reduce stress and promote overall wellness.",
 
         "highlights": [

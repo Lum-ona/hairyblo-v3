@@ -36,7 +36,6 @@ export default function Activities() {
   }, []);
 
   const data = activitiesData.find((activities) => activities.id === state.id);
-  console.log(activitiesData);
 
   // Utility function to chunk the array
   const chunkArray = (array, chunkSize) => {
