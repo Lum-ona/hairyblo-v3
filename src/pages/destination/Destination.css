@@ -1,5 +1,11 @@
+/* General styles for the destination details */
 .destination-details {
   color: #fff;
+  background-size: cover; /* Cover entire background */
+  background-position: center center;
+  height: 100vh;
+  max-height: 100vh;
+  transition: 0.4s;
 }
 
 .destination-details p {
@@ -8,18 +14,17 @@
 
 .destination-details-hero {
   width: 100vw;
-  height: 80vh;
+  height: 95vh;
   display: flex;
   position: relative;
   justify-content: space-between;
   align-items: flex-end;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-image: url("https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=800");
+  overflow: hidden;
+  flex-wrap: wrap;
 }
 
-.destination-details-hero::before {
+/* Overlay effect on the destination details */
+.destination-details::before {
   content: "";
   position: absolute;
   top: 0;
@@ -29,14 +34,14 @@
   background: linear-gradient(to right, black, transparent);
 }
 
+/* Content inside the destination details */
 .destination-details-hero .destination-details-content {
   padding: 20px;
-  width: 40vw;
   position: relative;
   z-index: 12;
 }
 
-.destination-details-hero .destination-details-content .btn {
+.destination-btn {
   padding: 5px 20px;
   border: solid 1px white;
   border-radius: 20px;
@@ -44,156 +49,188 @@
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
+  width: 300px;
+  text-align: center;
+  margin-top: 5vh;
 }
 
+/* Right section: Highlights and direction indicators */
 .destination-details-hero .right {
-  width: 60vw;
   overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
+/* Highlights section */
 .destination-details-hero .highlights {
   display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  scrollbar-width: none; /* Firefox: hide scrollbar */
-  -ms-overflow-style: none; /* IE and Edge: hide scrollbar */
-  -webkit-overflow-scrolling: touch;
-  justify-content: space-around;
-  margin-bottom: 2vh;
+  overflow-x: auto;
+  justify-content: flex-start;
   position: relative;
   z-index: 12;
+  white-space: nowrap;
+  padding: 2vh 0;
+  scroll-snap-type: x mandatory; /* Snap highlights into view */
 }
 
 .destination-details-hero .highlights::-webkit-scrollbar {
-  display: none;
+  display: none; /* Hide scrollbar */
 }
 
 .destination-details-hero .highlights .highlight {
-  width: 200px;
+  width: 180px;
   min-width: 200px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   height: 40vh;
   background-color: black;
   border-radius: 20px;
   background-position: center;
   background-size: cover;
-  position: relative;
-  box-shadow: 0px 0px 10px rgb(75, 75, 75);
-  margin: 10px;
-  margin-left: 2vw;
-  transition: transform 0.4s, box-shadow 0.4s; /* Smooth transition */
-}
-
-.destination-details-hero .highlights .highlight.highlight {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 10px 2vw;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.4s, box-shadow 0.4s, opacity 0.4s;
 }
 
 .destination-details-hero .highlights .highlight.highlight-hover {
   transform: scale(1.07);
   box-shadow: 0px 0px 15px black;
+  opacity: 1;
 }
 
-.destination-details-hero .highlights .highlight.location-hover {
-  color: yellow;
-  transition: color 0.3s ease;
-}
-
-.destination-details-hero .highlights .highlight::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.548), transparent);
-  border-radius: 20px;
+.destination-details-hero .highlights .highlight.highlight-fade {
+  opacity: 0.5;
 }
 
 .destination-details-hero .highlights .highlight h4 {
   position: relative;
   z-index: 12;
+  color: white;
+  font-size: 16px;
 }
 
-.destination-details-hero .right .direction-indicator {
+/* Locations section */
+.locations {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4vh;
+  text-align: center;
+}
+
+.scroll-locations {
+  min-height: 30vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh 0;
+  width: 100%;
+}
+
+.scroll-locations .location {
+  font-style: italic;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  margin: 1vh 0;
+}
+
+.scroll-locations .location.location-hover {
+  background-color: rgba(47, 47, 47, 0.7);
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.662);
+}
+
+/* Direction indicators for carousel */
+.direction-indicator {
   display: flex;
   align-items: center;
-  color: white;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  color: #aaa;
+  margin: 2vh 0;
 }
 
-.destination-details-hero .right .direction-indicator .indicator {
+.direction-indicator .indicator {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px white;
+  border: 1px solid #aaa;
   margin-right: 2vw;
 }
 
-.destination-details-hero .right .direction-indicator hr {
-  width: 60%;
-  color: white !important;
+/* Media Queries for Responsive Design */
+
+/* Large tablets and smaller desktops */
+@media (max-width: 992px) {
+  .destination-details-hero {
+    flex-direction: column-reverse; /* Stack the elements */
+    height: auto;
+    padding-bottom: 10vh;
+  }
+
+  .destination-details-hero .destination-details-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .scroll-locations {
+    height: auto;
+  }
+
+  .destination-details-hero .right {
+    margin-top: 10vh;
+  }
 }
 
-.destination-action-btns {
-  width: 100%;
-  border-radius: 50px;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-  padding: 20px;
-  box-shadow: 0px 0px 10px gray;
-  display: flex;
-  justify-content: space-between;
-  height: 15vh;
+/* Small tablets and phones (up to 768px) */
+@media (max-width: 768px) {
+  .destination-details-hero .highlights .highlight {
+    width: 150px;
+    min-width: 150px;
+    height: 30vh;
+  }
+
+  .destination-btn {
+    width: 100%;
+  }
+
+  .destination-details p {
+    font-size: 14px;
+  }
+
+  .scroll-locations .location {
+    font-size: 12px;
+  }
 }
 
-.destination-action-btns .action-btn {
-  display: flex;
-  align-items: center;
-}
+/* Small phones (up to 576px) */
+@media (max-width: 576px) {
+  .destination-details-hero {
+    flex-direction: column-reverse;
+  }
 
-.destination-action-btns .action-btn .btn-icon {
-  font-size: 36px;
-  border: solid 1px gray;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-}
+  .destination-details-hero .highlights .highlight {
+    width: 120px;
+    min-width: 120px;
+    height: 25vh;
+  }
 
-.destination-action-btns .action-btn div {
-  margin-left: 10px;
-}
+  .direction-indicator .indicator {
+    width: 40px;
+    height: 40px;
+  }
 
-.destination-action-btns .action-btn div p {
-  margin: 0;
-}
+  .scroll-locations {
+    width: 90%;
+  }
 
-.destination-action-btns .action-btn .location {
-  font-style: italic;
-  cursor: pointer;
-  transition: 0.4s;
-  font-size: 14px;
-}
-
-.destination-action-btns .action-btn .location.location-hover {
-  color: yellow;
-}
-
-.destination-action-btns .action-btn .location:hover {
-  color: yellow;
-}
-
-.destination-action-btns .action-btn.button {
-  padding: 10px;
-  border-radius: 50px;
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0px 0px 10px yellow;
+  .destination-btn {
+    width: 100%;
+    font-size: 12px;
+  }
 }

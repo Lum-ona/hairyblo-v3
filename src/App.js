@@ -6,6 +6,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Activities from "./pages/activities/Activities";
 import Destination from "./pages/destination/Destination";
+import Location from "./pages/location/Location";
 
 function App() {
   return (
@@ -19,8 +20,11 @@ function App() {
             path="/activities/:name/:destination"
             element={<Destination />}
           />
+          <Route
+            path="/activities/:name/:destination/:location"
+            element={<Location />}
+          />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   );

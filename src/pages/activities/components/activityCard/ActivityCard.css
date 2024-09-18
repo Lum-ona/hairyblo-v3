@@ -1,6 +1,6 @@
 .activity-card {
-  width: 28vw;
-  min-width: 28vw;
+  width: 400px;
+  min-width: 400px;
   height: 55vh;
   border-radius: 20px;
   cursor: pointer;
@@ -14,7 +14,10 @@
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px rgb(75, 75, 75);
+  overflow: hidden;
+  margin: 10px;
 }
+
 .activity-card::before {
   content: "";
   position: absolute;
@@ -24,19 +27,50 @@
   bottom: 0;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.548), transparent);
   border-radius: 20px;
+  z-index: 1;
 }
+
 .activity-card:hover {
   box-shadow: 5px 7px 10px rgba(85, 85, 85, 0.671);
   transform: scale(1.04);
   border-color: rgb(43, 43, 43);
 }
+.activity-card::before:hover {
+  backdrop-filter: blur(4px);
+}
+
 .activity-card .activity-card-content {
   position: relative;
-  z-index: 12;
+  z-index: 2;
 }
+
 .activity-card .activity-card-content h2 {
   text-shadow: 0px 0px 10px black;
+  transition: 0.4s;
+  color: #fff;
 }
 .activity-card .activity-card-content p {
   font-size: 14px;
+  transition: 0.4s;
+  color: #fff;
+}
+.activity-card:hover .activity-card-content p {
+  color: yellow !important;
+}
+.activity-card:hover .activity-card-content h2 {
+  color: yellow !important;
+}
+
+@media (min-width: 1192px) {
+  .activity-card {
+    width: 28vw;
+    min-width: 28vw;
+  }
+}
+
+@media (max-width: 482px) {
+  .activity-card {
+    width: 280px;
+    min-width: 280px;
+  }
 }

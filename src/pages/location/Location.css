@@ -1,0 +1,102 @@
+.location-page {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.location-page::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.287);
+  overflow: hidden;
+}
+.location-page p {
+  margin: 0;
+  font-weight: 200;
+}
+.location-page li {
+  font-weight: 200;
+}
+.location-page span {
+  font-weight: 500;
+}
+.location-page .location-content-div {
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(184, 184, 184, 0.718);
+  width: 500px;
+  height: 89vh;
+  margin-top: 12vh;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.location-page .location-content-div::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.579);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+
+.location-page .location-content {
+  position: relative;
+  overflow-y: scroll;
+  padding: 20px;
+  z-index: 12;
+  height: 89vh;
+  color: #fff;
+  text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+.location-page .location-content-div .location-content::-webkit-scrollbar {
+  display: none;
+}
+
+.location-page .location-content h2 {
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.location-page .location-content h4 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.location-page .location-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 5vh;
+}
+.location-page .location-content .timings .opening {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.location-page .location-content .pricings div:nth-child(1) {
+  margin-right: 5vw;
+}
+.location-page .location-content .pricings p {
+  text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  .location-page .location-content-div {
+    width: 90%;
+    height: 90vh;
+  }
+}

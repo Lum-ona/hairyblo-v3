@@ -92,11 +92,103 @@
           },
           {
             "title": "Mt Kenya",
-            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FMT%20KENYA%20(2).jpg?alt=media&token=84c11dd8-4dc2-4ff0-9e94-764296240a28"
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FMT%20KENYA%20(2).jpg?alt=media&token=84c11dd8-4dc2-4ff0-9e94-764296240a28",
+            "entryFee": {
+              "citizens": {
+                "currency": "KES",
+                "3 Day Package": 1290,
+                "4 Day Package": 1720,
+                "5 Day Package": 2150,
+                "6 Day Package": 2580
+              },
+              "non-citizens": {
+                "currency": "USD",
+                "3 Day Package": 156,
+                "4 Day Package": 208,
+                "5 Day Package": 260,
+                "6 Day Package": 312
+              }
+            },
+            "timings": { "opening": "6:00am", "closing": "6:00pm" },
+            "location": "MOUNT KENYA NATIONAL PARK",
+            "whyVisit": [
+              {
+                "Stunning Summit": "Reach the second highest peak in Africa and enjoy breathtaking views of glaciers, valleys, and peaks. Perfect for those epic summit selfies!"
+              },
+              {
+                "Thrilling Trek": "Challenge yourself with a multi-day trek through diverse landscapes, from bamboo forests to alpine meadows. An adventure like no other!"
+              },
+              {
+                "Unique Wildlife": "Spot unique wildlife, including elephants, buffaloes, and various bird species. Nature lovers will be in heaven!"
+              },
+              {
+                "Cultural Experience": "Immerse yourself in local culture with guided tours by experienced local guides. Learn about the traditions and legends of Mt. Kenya."
+              },
+              {
+                "Adventure for All": "Whether you're a seasoned mountaineer or a beginner, Mt. Kenya offers routes and experiences for every level of adventurer."
+              }
+            ],
+            "tips": [
+              "Best Time to Visit: January to February and June to September for the best weather conditions.",
+              "What to Pack:Warm clothing, waterproof gear, sturdy hiking boots, trekking poles, and a camera.",
+              "Fitness Level: Moderate to high. Be prepared for altitude and challenging terrain.",
+              "Travel Light:Carry only essential gear to make your trek easier.",
+              "Stay Hydrated: Drink plenty of water and consider carrying a water purification system."
+            ],
+            "hacks": [
+              "Acclimatize Properly:Spend a few days at higher altitudes before the trek to reduce the risk of altitude sickness.",
+              "Hire Porters and Guides: Enhance your experience with local guides who know the best routes and porters to help carry your gear.",
+              "Affordable Packages: Outdoorer offers a Ksh 15,000 day trip package, including transportation, a guided hike, and meals."
+            ],
+            "direction": "Located about 175 kilometers northeast of Nairobi, Mt. Kenya is accessible via the Nanyuki-Isiolo road. Plan your trip and enjoy a smooth journey to the base of the mountain."
           },
           {
             "title": "My Kilimanjaro",
-            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FMT%20KILIMANJARO.jpg?alt=media&token=376364ae-73f3-4f17-a14b-4f00f5280916"
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2Fhiking%2FMT%20KILIMANJARO.jpg?alt=media&token=376364ae-73f3-4f17-a14b-4f00f5280916",
+            "entryFee": {
+              "citizens": {
+                "currency": "KES",
+                "Adult": 9065,
+                "Child": 2590
+              },
+              "non-citizens": {
+                "currency": "USD",
+                "Adult": 70,
+                "Child": 20
+              }
+            },
+            "timings": { "opening": "6:00am", "closing": "6:00pm" },
+            "location": "MT KILIMANJARO",
+            "whyVisit": [
+              {
+                "Iconic Summit": "Reach the highest peak in Africa and enjoy breathtaking 360-degree views from Uhuru Peak. Capture those once-in-a-lifetime summit photos!"
+              },
+              {
+                "Thrilling Trek": "Challenge yourself with a multi-day trek through diverse ecosystems, from rainforests to alpine deserts. An adventure of epic proportions!"
+              },
+              {
+                "Unique Wildlife": "Encounter a variety of wildlife, including monkeys, antelopes, and exotic birds. A paradise for nature enthusiasts!"
+              },
+              {
+                "Cultural Experience": "Immerse yourself in the local culture with knowledgeable guides sharing the history and traditions of Kilimanjaro and the Chagga people.."
+              },
+              {
+                "Personal Achievements": "Experience the ultimate sense of accomplishment by conquering one of the world's Seven Summits. Perfect for your bucket list!"
+              }
+            ],
+            "tips": [
+              "Best Time to Visit: January to March and June to October for the best weather conditions.",
+              "What to Pack: Warm clothing, waterproof gear, sturdy hiking boots, trekking poles, a camera, and a headlamp.",
+              "Fitness Level: Moderate to high. Be prepared for altitude and challenging terrain.",
+              "Travel Light:Carry only essential gear to make your trek easier.",
+              "Stay Hydrated: Drink plenty of water and consider carrying a water purification system."
+            ],
+            "hacks": [
+              "Acclimatize Properly:Spend a few days at higher altitudes before the trek to reduce the risk of altitude sickness.",
+              "Hire Porters and Guides: Enhance your experience with local guides who know the best routes and porters to help carry your gear.",
+              "Affordable Packages: Outdoorer offers a Ksh 200,000 package, including transportation, guided trek, meals, and accommodation."
+            ],
+            "direction": "Located in Tanzania, Mt. Kilimanjaro is accessible via Kilimanjaro International Airport (JRO), which is well-connected to major cities. Plan your trip for a smooth journey to the base of the mountain."
           }
         ],
         "tips": [
@@ -124,15 +216,197 @@
         "highlights": [
           {
             "title": "Nairobi contemporary art gallery",
-            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FNCAI.jpg?alt=media&token=9dd82705-0b56-4a8c-9cc7-4ba98b8b39ea"
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FNCAI.jpg?alt=media&token=9dd82705-0b56-4a8c-9cc7-4ba98b8b39ea",
+            "entryFee": {
+              "citizens": {
+                "currency": "KES",
+                "Adult": 0,
+                "Child": 0
+              },
+              "non-citizens": {
+                "currency": "USD",
+                "Adult": 0,
+                "Child": 0
+              }
+            },
+            "timings": { "opening": "10:00am", "closing": "6:00pm" },
+            "location": "ROSSLYN RIVIERA MALL",
+            "whyVisit": [
+              {
+                "Vibrant Art Scene": "Immerse yourself in the dynamic world of contemporary African art. Discover works by emerging and established artists that reflect the vibrant culture and creativity of Nairobi."
+              },
+              {
+                "Inspiring Exhibitions": "Experience rotating exhibitions showcasing a diverse range of mediums, including painting, sculpture, photography, and digital art. Each visit offers something new and exciting!"
+              },
+              {
+                "Cultural Hub": "Engage with Nairobi’s art community through artist talks, workshops, and events. It's a fantastic opportunity to learn, network, and be inspired by local talent."
+              },
+              {
+                "Unique Space": "Located in the Rosslyn Riviera Mall, the gallery offers a modern, welcoming space perfect for a leisurely day of art appreciation. Enjoy the blend of art and architecture!"
+              },
+              {
+                "Educational Opportunities": "Participate in educational programs and guided tours designed to deepen your understanding of contemporary art. Perfect for students, art enthusiasts, and curious minds."
+              }
+            ],
+            "tips": [
+              "Timings: On Saturdays it's opened from 11am, and on Sunday its only opened The First sundays of every month",
+              "Best Time to Visit: Weekdays or early weekends to avoid crowds and have a more intimate experience.",
+              "What to Pack:A notebook for jotting down thoughts, a camera for capturing your favorite pieces, and an open mind.",
+              "Duration: Plan to spend 1-2 hours to fully appreciate the exhibits and participate in any available activities.",
+              "Stay Updated: Check the gallery’s website or social media for current exhibitions and event schedules."
+            ],
+            "hacks": [
+              "Join a Tour: Enhance your visit with a guided tour to gain deeper insights into the art and artists.",
+              "Attend Events: Look out for special events like artist talks and workshops to engage more with the art community.",
+              "Affordable Packages: Many events and exhibitions are free or have a minimal entry fee, making it an accessible cultural experience."
+            ],
+            "direction": "Located in the Rosslyn Riviera Mall, the Nairobi Contemporary Art Institute is easily accessible from Nairobi’s city center. Use public transportation or ride-sharing services for convenience."
           },
           {
             "title": "Ardhi gallery",
-            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FARDHI%20GALLERY.jpg?alt=media&token=41809d7d-b13a-469e-9124-f1af66e50ae2"
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FARDHI%20GALLERY.jpg?alt=media&token=41809d7d-b13a-469e-9124-f1af66e50ae2",
+            "entryFee": {
+              "citizens": {
+                "currency": "KES",
+                "Adult": 0,
+                "Child": 0
+              },
+              "non-citizens": {
+                "currency": "USD",
+                "Adult": 0,
+                "Child": 0
+              }
+            },
+            "timings": { "opening": "10:00am", "closing": "8:00pm" },
+            "location": "Ole-Sangale Link Rd, Nairobi",
+            "whyVisit": [
+              {
+                "Diverse Art Collections": "Explore a wide range of artworks from both emerging and established artists. From traditional African art to modern contemporary pieces, there’s something for everyone."
+              },
+              {
+                "Engaging Exhibitions": "Experience rotating exhibitions that showcase the rich cultural heritage and contemporary creativity of Nairobi. Every visit promises new and inspiring works."
+              },
+              {
+                "Cultural Experience": "Connect with Nairobi’s vibrant art community through artist talks, workshops, and special events. Gain insights into the stories and inspirations behind the art."
+              },
+              {
+                "Unique Venue": "Situated in a charming and accessible location, Ardhi Gallery offers a welcoming space where art and culture come together. It’s perfect for a relaxed and enriching outing."
+              },
+              {
+                "Educational Programs": "Participate in guided tours and educational programs designed to enhance your understanding and appreciation of art. Ideal for students, art enthusiasts, and curious visitors."
+              }
+            ],
+            "tips": [
+              "Best Time to Visit: Weekdays or early weekends for a quieter experience.",
+              "What to Pack: A notebook for your thoughts, a camera to capture favorite pieces, and an open mind to fully enjoy the art.",
+              "Duration: Plan to spend 1-2 hours to explore the exhibits and engage in any available activities.",
+              "Stay Updated: Follow Ardhi Gallery’s website or social media for current exhibitions and event schedules."
+            ],
+            "hacks": [
+              "Join a Tour: Enhance your visit with a guided tour to gain deeper insights into the artworks and artists.",
+              "Attend Events: Look out for special events such as artist talks and workshops to immerse yourself in the art community.",
+              "Affordable Packages: Many exhibitions and events are free or have a minimal entry fee, making it an accessible cultural experience."
+            ],
+            "direction": "Conveniently located in Nairobi, Ardhi Gallery is easily accessible by public transportation or ride-sharing services. Plan your route for a smooth and hassle-free visit."
           },
           {
             "title": "Fort Jesus",
-            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FFORT%20JESUS%20Museum.jpg?alt=media&token=1967f69b-ef32-41fe-9414-fc8d0a22c995"
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FFORT%20JESUS%20Museum.jpg?alt=media&token=1967f69b-ef32-41fe-9414-fc8d0a22c995",
+            "entryFee": {
+              "citizens": {
+                "currency": "KES",
+                "Adult": 200,
+                "Child": 100
+              },
+              "east-africans": {
+                "currency": "KES",
+                "Adult": 400,
+                "Child": 200
+              },
+              "non-citizens": {
+                "currency": "KES",
+                "Adult": 1200,
+                "Child": 600
+              }
+            },
+            "timings": { "opening": "8:00am", "closing": "5:30pm" },
+            "location": "Mombasa City on the coast of Kenya",
+            "whyVisit": [
+              {
+                "Rich History": "Step back in time and discover the fascinating history of Fort Jesus, a UNESCO World Heritage Site. Learn about its role in the defense of Mombasa and its significance during the colonial era."
+              },
+              {
+                "Architectural Masterpiece": "Marvel at the impressive 16th-century Portuguese architecture. The fort’s design, with its star-shaped layout and sturdy walls, is a testament to historical military engineering."
+              },
+              {
+                "Cultural Insights": "Dive into the diverse cultural influences that have shaped Mombasa. From Portuguese to Omani and British rule, Fort Jesus offers a window into the city’s multicultural past."
+              },
+              {
+                "Museum Collections": "Explore the museum housed within the fort, featuring artifacts, pottery, and exhibits that chronicle the region’s history. A must-see for history buffs and curious minds alike."
+              },
+              {
+                "Stunning Views": "Enjoy breathtaking views of the Indian Ocean from the fort’s vantage points. It’s a perfect spot for photography and soaking in the scenic beauty of Mombasa."
+              }
+            ],
+            "tips": [
+              "Best Time to Visit: Early morning or late afternoon to avoid the heat and enjoy a more pleasant experience.",
+              "What to Pack:Comfortable walking shoes, a hat, sunscreen, water, and a camera to capture the stunning views and historical details.",
+              "Duration: Plan to spend 2-3 hours to fully explore the fort and museum exhibits.",
+              "Stay Updated: Check the Fort Jesus website or local listings for any special events or guided tours available during your visit."
+            ],
+            "hacks": [
+              "Join a Tour:Enhance your visit with a guided tour to gain deeper insights into the fort’s history and significance.",
+              "Attend Events: Look out for cultural events, reenactments, and exhibitions held at the fort for an enriched experience.",
+              "Affordable Entry: Entry fees are reasonable, and discounts may be available for students and groups."
+            ],
+            "direction": "Located in the heart of Mombasa, Fort Jesus is easily accessible by public transportation, taxis, or ride-sharing services. Plan your route for a smooth and enjoyable visit."
+          },
+          {
+            "title": "Ardhi gallery",
+            "thumbnail": "https://firebasestorage.googleapis.com/v0/b/hairyblo.appspot.com/o/cultureAndHeritage%2FmuseumsAndGalleries%2FARDHI%20GALLERY.jpg?alt=media&token=41809d7d-b13a-469e-9124-f1af66e50ae2",
+            "entryFee": {
+              "citizens": {
+                "currency": "KES",
+                "Adult": 0,
+                "Child": 0
+              },
+              "non-citizens": {
+                "currency": "USD",
+                "Adult": 0,
+                "Child": 0
+              }
+            },
+            "timings": { "opening": "10:00am", "closing": "8:00pm" },
+            "location": "Ole-Sangale Link Rd, Nairobi",
+            "whyVisit": [
+              {
+                "Diverse Art Collections": "Explore a wide range of artworks from both emerging and established artists. From traditional African art to modern contemporary pieces, there’s something for everyone."
+              },
+              {
+                "Engaging Exhibitions": "Experience rotating exhibitions that showcase the rich cultural heritage and contemporary creativity of Nairobi. Every visit promises new and inspiring works."
+              },
+              {
+                "Cultural Experience": "Connect with Nairobi’s vibrant art community through artist talks, workshops, and special events. Gain insights into the stories and inspirations behind the art."
+              },
+              {
+                "Unique Venue": "Situated in a charming and accessible location, Ardhi Gallery offers a welcoming space where art and culture come together. It’s perfect for a relaxed and enriching outing."
+              },
+              {
+                "Educational Programs": "Participate in guided tours and educational programs designed to enhance your understanding and appreciation of art. Ideal for students, art enthusiasts, and curious visitors."
+              }
+            ],
+            "tips": [
+              "Best Time to Visit: Weekdays or early weekends for a quieter experience.",
+              "What to Pack: A notebook for your thoughts, a camera to capture favorite pieces, and an open mind to fully enjoy the art.",
+              "Duration: Plan to spend 1-2 hours to explore the exhibits and engage in any available activities.",
+              "Stay Updated: Follow Ardhi Gallery’s website or social media for current exhibitions and event schedules."
+            ],
+            "hacks": [
+              "Join a Tour: Enhance your visit with a guided tour to gain deeper insights into the artworks and artists.",
+              "Attend Events: Look out for special events such as artist talks and workshops to immerse yourself in the art community.",
+              "Affordable Packages: Many exhibitions and events are free or have a minimal entry fee, making it an accessible cultural experience."
+            ],
+            "direction": "Conveniently located in Nairobi, Ardhi Gallery is easily accessible by public transportation or ride-sharing services. Plan your route for a smooth and hassle-free visit."
           }
         ],
         "tips": [

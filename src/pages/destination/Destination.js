@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "./Destination.css";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -9,54 +9,147 @@ import Inventory2Icon from "@mui/icons-material/Inventory2";
 
 export default function Destination() {
   const { state } = useLocation();
+  const scrollContainerRef = useRef(null);
   const highlightsRef = useRef(null);
-  const [highlightIndex, setHighlightIndex] = useState(null);
+  const [visibleIndex, setVisibleIndex] = useState(0);
+  const [heroBg, setHeroBg] = useState(state?.banner);
+  const [isLocations, setIsLocations] = useState(false);
 
   const handleLocationHover = (index) => {
-    setHighlightIndex(index);
-    // if (index !== 0) {
-    const highlight = highlightsRef.current.children[index];
-    highlight.scrollIntoView({
-      behavior: "smooth",
-      inline: index === 0 ? "center" : "start", // Adjust scrolling to center to avoid clipping
-      block: "nearest",
-    });
-    // }
+    setVisibleIndex(index);
+    scrollToLocation(index);
+    scrollToHighlight(index);
   };
 
-  const handleHighlightHover = (index) => {
-    setHighlightIndex(index);
+  const scrollToLocation = (index) => {
+    const container = scrollContainerRef.current;
+    if (container && container.children.length > index) {
+      // Check if container exists and has children
+      const location = container.children[index];
+      location.scrollIntoView({
+        behavior: "smooth",
+        block: "center", // Center the item vertically for better visibility
+      });
+    }
   };
 
-  const handleHoverExit = () => {
-    setHighlightIndex(null);
+  const scrollToHighlight = (index) => {
+    const highlightContainer = highlightsRef.current;
+    if (highlightContainer && highlightContainer.children.length > index) {
+      // Check if highlightContainer exists and has children
+      const highlight = highlightContainer.children[index];
+      const containerWidth = highlightContainer.offsetWidth;
+      const highlightWidth = highlight.offsetWidth;
+
+      // Calculate the amount to scroll to center the hovered item
+      const scrollLeft =
+        highlight.offsetLeft - containerWidth / 2 + highlightWidth / 2;
+
+      highlightContainer.scroll({
+        left: scrollLeft,
+        behavior: "smooth",
+      });
+    }
   };
+
+  const handleScroll = (event) => {
+    const { scrollTop, clientHeight } = event.target;
+    const index = Math.round(scrollTop / (clientHeight / 3)); // Calculate the index based on scroll position
+    setVisibleIndex(index);
+  };
+
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      container.addEventListener("scroll", handleScroll);
+
+      return () => {
+        container.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [isLocations]); // Add isLocations as a dependency to re-run the effect when it changes
 
   return (
-    <div className="destination-details">
-      <div
-        className="destination-details-hero"
-        style={{ backgroundImage: `url(${state.banner})` }}
-      >
-        <div className="destination-details-content">
-          <h2>{state.name}</h2>
-          <p>{state.description}</p>
-          <div className="btn">Start your adventure</div>
-        </div>
-        <div className="right">
+    <div
+      className="destination-details"
+      style={{ backgroundImage: `url(${heroBg})` }}
+    >
+      <div className="destination-details-hero row d-flex flex-lg-row flex-column-reverse">
+        {!isLocations ? (
+          <div className="destination-details-content col-lg-4">
+            <h2>{state.name}</h2>
+            <p>{state.description}</p>
+            <div
+              className="destination-btn"
+              onClick={() => setIsLocations(true)}
+            >
+              See locations
+            </div>
+          </div>
+        ) : (
+          <div className="locations col-lg-4">
+            <div className="d-flex flex-column align-items-center">
+              <h5 className="mt-2">LOCATIONS</h5>
+              <div className="scroll-locations" ref={scrollContainerRef}>
+                {state.highlights.map(
+                  (item, index) =>
+                    item.location && (
+                      <Link
+                        to={item.title.toLowerCase().replace(/\s+/g, "-")}
+                        state={item}
+                        className={`location ${
+                          visibleIndex === index ? "location-hover" : ""
+                        } ${
+                          visibleIndex === index + 1 ||
+                          visibleIndex === index - 1
+                            ? "location-nearby"
+                            : ""
+                        } ${
+                          index < visibleIndex - 1 || index > visibleIndex + 1
+                            ? "location-hidden"
+                            : ""
+                        }`}
+                        key={index}
+                        onMouseEnter={() => {
+                          handleLocationHover(index);
+                          setHeroBg(item.thumbnail);
+                        }}
+                      >
+                        <p>{item.location}</p>
+                      </Link>
+                    )
+                )}
+              </div>
+              <div
+                className="destination-btn"
+                onClick={() => setIsLocations(false)}
+              >
+                Start your adventure
+              </div>
+            </div>
+          </div>
+        )}
+        <div className="right col-lg-8">
           <div className="highlights" ref={highlightsRef}>
             {state?.highlights?.map((item, index) => (
-              <div
+              <Link
+                to={item.title.toLowerCase().replace(/\s+/g, "-")}
                 key={index}
+                state={item}
                 className={`highlight ${
-                  highlightIndex === index ? "highlight-hover" : ""
-                }`}
-                style={{ backgroundImage: `url(${item.thumbnail})` }}
-                onMouseEnter={() => handleHighlightHover(index)}
-                onMouseLeave={handleHoverExit}
+                  visibleIndex === index ? "highlight-hover" : ""
+                } ${visibleIndex > index ? "highlight-fade" : ""}`}
+                style={{
+                  backgroundImage: `url(${item.thumbnail})`,
+                  color: "white",
+                }}
+                onMouseEnter={() => {
+                  handleLocationHover(index);
+                  setHeroBg(item.thumbnail);
+                }}
               >
                 <h4>{item.title}</h4>
-              </div>
+              </Link>
             ))}
           </div>
 
@@ -71,45 +164,6 @@ export default function Destination() {
           </div>
         </div>
       </div>
-      <main className="container">
-        <div className="destination-action-btns">
-          <div className="action-btn">
-            <PlaceIcon className="btn-icon" />
-            <div>
-              <h5>Locations</h5>
-              {state.highlights.map(
-                (item, index) =>
-                  item.location && (
-                    <Link
-                      className={`location ${
-                        highlightIndex === index ? "location-hover" : ""
-                      }`}
-                      key={index}
-                      onMouseEnter={() => handleLocationHover(index)}
-                      onMouseLeave={handleHoverExit}
-                    >
-                      <p>{item.location},</p>
-                    </Link>
-                  )
-              )}
-            </div>
-          </div>
-          <div className="action-btn button">
-            <AltRouteIcon className="btn-icon" />
-            <div>
-              <h5>Hacks</h5>
-              <p>Lamu</p>
-            </div>
-          </div>
-          <div className="action-btn button">
-            <Inventory2Icon className="btn-icon" />
-            <div>
-              <h5>Packages</h5>
-              <p>Lamu</p>
-            </div>
-          </div>
-        </div>
-      </main>
     </div>
   );
 }

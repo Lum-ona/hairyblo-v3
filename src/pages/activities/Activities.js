@@ -5,6 +5,7 @@ import { db } from "../../firebaseConfig";
 
 import "./Activities.css";
 import { useEffect, useState } from "react";
+import { Flip, Rotate } from "react-reveal";
 
 export default function Activities() {
   const { state } = useLocation();
@@ -60,7 +61,10 @@ export default function Activities() {
         <p className="">{data.mainDescription}</p>
         <div className="activities-list">
           {chunkedactivities.map((chunk, rowIndex) => (
-            <div key={rowIndex} className="activities-row">
+            <div
+              key={rowIndex}
+              className="activities-row row justify-content-center justify-content-lg-between"
+            >
               {chunk.map((dest, destIndex) => (
                 <ActivityCard key={destIndex} name={dest.title} data={dest} />
               ))}
